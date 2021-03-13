@@ -16,7 +16,7 @@ HTTPClient httpInflux;
 HTTPClient httpLoki;
 HTTPClient httpGraphite;
 
-// Sensors
+// Sensors Temp Humid
 DHT dht(DHT_PIN, DHT_TYPE);
 UltraSonicDistanceSensor distanceSensor(ULTRASONIC_PIN_TRIG, ULTRASONIC_PIN_ECHO);
 
